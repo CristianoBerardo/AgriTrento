@@ -2,7 +2,7 @@
   <img src="./Deliverables/Logo/AgriTrentoSlogan.svg" alt="Logo di AgriTrento" width="400">
   <p> 
    <div align="center">
-      <strong><a href="https://agritrento-rhzf.onrender.com/home">AgriTrento</a></strong> una piattaforma web che facilita la prenotazione e la vendita di frutta e verdura del mercato contadino di Trento, incentivando il consumo di prodotti stagionali locali, favorendo pratiche sostenibili e nel rispetto del nostro territorio.
+      <strong><a href="https://agritrento-rhzf.onrender.com/home">AgriTrento</a></strong> a web platform that facilitates the ordering and sale of fruit and vegetables from the Trento farmers' market, encouraging the consumption of local, seasonal produce and fostering sustainable practices that respect our local area.
    </div>
 </div>
 
@@ -14,27 +14,27 @@
 - [npm](https://www.npmjs.com/) v10.8.2
 
 
-# Istruzioni per l'esecuzione in locale
+# Instructions for local execution
 
-1. Assicurati di aver installato Node e npm. Puoi verificarlo eseguendo il seguente comando nel tuo terminale:
+1. Make sure you have installed Node and npm. You can verify this by running the following command in your terminal:
 
    ```bash
    node -v
    npm -v
    ```
 
-1. Clona la repository
-1. Entra nella cartella del progetto e da terminale installa i moduli necessari:
+1. Clone the repository
+1. Enter the project folder and install the necessary modules from the terminal:
 
    ```bash
    npm run install:all
    ```
 
-1. Crea un database su MongoDB
+1. Create a MongoDB database
 
-1. Crea un database Authentication su firebase
-
-1. Aggiungi un file `.env` in "/backend/":
+1. Create a Firebase database
+   
+1. Add the `.env` file in "/backend/":
 
    ```bash
    PORT=3000
@@ -42,9 +42,9 @@
    JWT_SECRET=JWT_SECRET
    ```
 
-1. Aggiungi un file `serviceAccountKey.json` in "/backend/config/". Per trovarlo collegarsi a [console.firebase.google.com](https://console.firebase.google.com/) > Progetto > Impostazioni ⚙️ > Account di servizio > Genera nuova chiave privata. 
+1. Add the file `serviceAccountKey.json` in "/backend/config/". To find it connect to [console.firebase.google.com](https://console.firebase.google.com/) > Project > Settings ⚙️ > Service account > Generate a new private key 
    
-   Questo scaricherà un file JSON. Copia il contenuto del file e incollalo nel file `serviceAccountKey.json`. Il file dovrebbe apparire simile a questo:
+   This will download a JSON file. Copy the file's contents and paste them into the file `serviceAccountKey.json`. The file should look like this:
 
    ```json
        {
@@ -73,20 +73,20 @@
 
    ```
 
-2. Esegui il progetto eseguendo il seguente comando nel tuo terminale:
+2. Run the follow command on your terminal
 
    ```bash
    npm run dev
    ```
 
-3. Controlla la console, apri il tuo browser e vai su [http://localhost:5173/](http://localhost:5173/) per vedere il progetto in esecuzione.
+3. Check the terminal and open this link [http://localhost:5173/](http://localhost:5173/) on your preferred browser to see the web-application
 
 <br>
 
-# Diagramma del deployment
+# Deployment diagram
 
 
 <div align="center">
   <img src="./Deliverables/fourth-deliverable/img/DiagrammaAgriTrento.drawio.svg" alt="Diagramma del deployment">
-  <p>Diagramma del deployment di AgriTrento</p>
+  <p>AgriTrento's deployment diagram</p>
 </div>
